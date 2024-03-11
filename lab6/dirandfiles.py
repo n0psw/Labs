@@ -50,7 +50,7 @@ f.close()
 
 from string import ascii_uppercase
 
-new_path = "kbtu_pp2\\Lab6_pp2\\alphabet"
+new_path = "labs\\lab6\\alphabet"
 if not os.access(new_path, os.F_OK):
     os.makedirs(new_path)
 
